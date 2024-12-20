@@ -2368,6 +2368,24 @@
     },
     {
         "old": {
+            "map_type": "tactile_map",
+            "information": "map"
+        },
+        "replace": {
+            "information": "tactile_map"
+        }
+    },
+    {
+        "old": {
+            "map_type": "tactile_model",
+            "information": "map"
+        },
+        "replace": {
+            "information": "tactile_model"
+        }
+    },
+    {
+        "old": {
             "maxage": "*"
         },
         "replace": {

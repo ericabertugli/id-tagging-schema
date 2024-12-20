@@ -17,10 +17,15 @@
     "build": "node scripts/build.js",
     "dist": "node scripts/dist.js",
     "test": "node scripts/test.js",
-    "translations": "node scripts/translations.js"
+    "translations": "node scripts/translations.js",
+    "server": "node scripts/server.js"
   },
   "devDependencies": {
     "@ideditor/schema-builder": "~6.5.1",
     "prettier": "^3.2.5"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1"
   }
 }

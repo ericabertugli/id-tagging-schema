@@ -1,0 +1,13 @@
+{
+    "key": "inline_skating_level",
+    "type": "combo",
+    "label": "Inline Skating Level",
+    "strings": {
+        "options": {
+            "green": "green: no descents, smooth surface - perfect for getting started",
+            "blue": "blue: some easy descents, some obstacles",
+            "red": "red: slopes are a bit more complex, obstacles or bad surface",
+            "black": "black: complex downhill and slopes, or dangerous slopes"
+        }
+    }
+}

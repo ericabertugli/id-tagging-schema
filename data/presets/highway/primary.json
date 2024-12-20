@@ -8,7 +8,9 @@
         "surface",
         "structure",
         "ref_road_number",
-        "access"
+        "access",
+        "suitable_for_inline_skates",
+        "inline_skating_level"
     ],
     "moreFields": [
         "bridge/ref",

@@ -2421,6 +2421,16 @@
         },
         {
             "key": "shop",
+            "value": "gold_buyer",
+            "description": "🄿 Gold buyer",
+            "object_types": [
+                "node",
+                "area"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-hand-holding.svg"
+        },
+        {
+            "key": "shop",
             "value": "gift",
             "description": "🄿 Gift Shop",
             "object_types": [
@@ -4553,15 +4563,6 @@
         },
         {
             "key": "piste:type",
-            "description": "🄿 Snowsports Trail / Piste, 🄵 Type",
-            "object_types": [
-                "way",
-                "area"
-            ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-skiing.svg"
-        },
-        {
-            "key": "piste:type",
             "value": "nordic",
             "description": "🄿 Cross-Country Ski Trail, 🄵🅅 Type: Nordic",
             "object_types": [
@@ -4594,6 +4595,15 @@
             "key": "piste:type",
             "value": "downhill",
             "description": "🄿 Downhill Ski Run, 🄵🅅 Type: Downhill",
+            "object_types": [
+                "way",
+                "area"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-skiing.svg"
+        },
+        {
+            "key": "piste:type",
+            "description": "🄿 Snowsports Trail / Piste (Unspecified Type) (unsearchable), 🄵 Type",
             "object_types": [
                 "way",
                 "area"
@@ -4648,6 +4658,16 @@
                 "area"
             ],
             "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/suitcase.svg"
+        },
+        {
+            "key": "office",
+            "value": "translator",
+            "description": "🄿 Translation Office",
+            "object_types": [
+                "node",
+                "area"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-language.svg"
         },
         {
             "key": "office",
@@ -5528,6 +5548,16 @@
                 "area"
             ],
             "icon_url": "https://cdn.jsdelivr.net/gh/rapideditor/temaki/icons/boulder3.svg"
+        },
+        {
+            "key": "natural",
+            "value": "arch",
+            "description": "🄿 Natural Arch",
+            "object_types": [
+                "node",
+                "area"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/rapideditor/temaki/icons/natural_arch.svg"
         },
         {
             "key": "wetland",
@@ -8374,6 +8404,24 @@
             "icon_url": "https://cdn.jsdelivr.net/gh/rapideditor/temaki/icons/anchor_medal.svg"
         },
         {
+            "key": "orchard",
+            "value": "meadow_orchard",
+            "description": "🄿 Orchard Planted in a Meadow",
+            "object_types": [
+                "area"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/park.svg"
+        },
+        {
+            "key": "meadow",
+            "value": "meadow_orchard",
+            "description": "🄿 Meadow With Fruit Trees",
+            "object_types": [
+                "area"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/park.svg"
+        },
+        {
             "key": "industrial",
             "value": "slaughterhouse",
             "description": "🄿 Slaughterhouse",
@@ -9250,6 +9298,60 @@
             "icon_url": "https://cdn.jsdelivr.net/gh/rapideditor/temaki/icons/pedestrian.svg"
         },
         {
+            "key": "bicycle",
+            "value": "designated",
+            "description": "🄿 Cycle & Foot Path, 🄿 Cycle & Foot Crossing, 🄵🅅 Allowed Access: `designated`",
+            "object_types": [
+                "way"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/rapideditor/temaki/icons/pedestrian_and_cyclist.svg"
+        },
+        {
+            "key": "path",
+            "value": "crossing",
+            "description": "🄿 Cycle & Foot Crossing (unsearchable)",
+            "object_types": [
+                "way"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/rapideditor/temaki/icons/cyclist_crosswalk.svg"
+        },
+        {
+            "key": "crossing",
+            "value": "unmarked",
+            "description": "🄿 Unmarked Cycle & Foot Crossing (unsearchable), 🄿 Unmarked Crossing, 🄿 Unmarked Cycle Crossing, 🄵🅅 Type: No Road Markings or Traffic Signals",
+            "object_types": [
+                "way"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/rapideditor/temaki/icons/pedestrian.svg"
+        },
+        {
+            "key": "crossing",
+            "value": "uncontrolled",
+            "description": "🄿 Marked Cycle & Foot Crossing (unsearchable), 🄿 Marked Crossing, 🄿 Marked Cycle Crossing, 🄵🅅 Type: Only Road Markings",
+            "object_types": [
+                "way"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/rapideditor/temaki/icons/pedestrian.svg"
+        },
+        {
+            "key": "crossing",
+            "value": "traffic_signals",
+            "description": "🄿 Cycle & Foot Crossing With Pedestrian Signals (unsearchable), 🄿 Crossing With Pedestrian Signals, 🄿 Cycle Crossing With Traffic Signals, 🄵🅅 Type: Crossing With Traffic Signals",
+            "object_types": [
+                "way"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/rapideditor/temaki/icons/railway_signals.svg"
+        },
+        {
+            "key": "crossing",
+            "value": "marked",
+            "description": "🄿 Marked Cycle & Foot Crossing (unsearchable), 🄿 Marked Crossing (unsearchable), 🄿 Marked Cycle Crossing (unsearchable)",
+            "object_types": [
+                "way"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/rapideditor/temaki/icons/pedestrian_crosswalk.svg"
+        },
+        {
             "key": "footway",
             "value": "traffic_island",
             "description": "🄿 Refuge Island",
@@ -9286,44 +9388,8 @@
         },
         {
             "key": "crossing",
-            "value": "unmarked",
-            "description": "🄿 Unmarked Crossing, 🄿 Unmarked Cycle Crossing, 🄵🅅 Type: No Road Markings or Traffic Signals",
-            "object_types": [
-                "way"
-            ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/rapideditor/temaki/icons/pedestrian.svg"
-        },
-        {
-            "key": "crossing",
-            "value": "uncontrolled",
-            "description": "🄿 Marked Crossing, 🄿 Marked Cycle Crossing, 🄵🅅 Type: Only Road Markings",
-            "object_types": [
-                "way"
-            ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/rapideditor/temaki/icons/pedestrian.svg"
-        },
-        {
-            "key": "crossing",
-            "value": "traffic_signals",
-            "description": "🄿 Crossing With Pedestrian Signals, 🄿 Cycle Crossing With Traffic Signals, 🄵🅅 Type: Crossing With Traffic Signals",
-            "object_types": [
-                "way"
-            ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/rapideditor/temaki/icons/railway_signals.svg"
-        },
-        {
-            "key": "crossing",
             "value": "zebra",
             "description": "🄿 Marked Crossing (unsearchable)",
-            "object_types": [
-                "way"
-            ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/rapideditor/temaki/icons/pedestrian_crosswalk.svg"
-        },
-        {
-            "key": "crossing",
-            "value": "marked",
-            "description": "🄿 Marked Crossing (unsearchable), 🄿 Marked Cycle Crossing (unsearchable)",
             "object_types": [
                 "way"
             ],
@@ -9719,6 +9785,15 @@
             "key": "entrance",
             "value": "staircase",
             "description": "🄿 Staircase Entrance, 🄵🅅 Type: Staircase",
+            "object_types": [
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/entrance-alt1.svg"
+        },
+        {
+            "key": "entrance",
+            "value": "shop",
+            "description": "🄿 Shop Entrance",
             "object_types": [
                 "node"
             ],
@@ -11984,7 +12059,7 @@
             "object_types": [
                 "node"
             ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/rapideditor/temaki/icons/vending_machine.svg"
+            "icon_url": "https://cdn.jsdelivr.net/gh/rapideditor/temaki/icons/vending_tickets.svg"
         },
         {
             "key": "amenity",
@@ -13510,7 +13585,7 @@
         {
             "key": "theatre:type",
             "value": "amphi",
-            "description": "🄿 Amphitheatre",
+            "description": "🄿 Amphitheater",
             "object_types": [
                 "node",
                 "area"
@@ -14069,7 +14144,7 @@
         {
             "key": "parking",
             "value": "underground",
-            "description": "🄿 Underground Parking, 🄵🅅 Type: Underground",
+            "description": "🄿 Underground Parking, 🄵🅅 Type: `underground`",
             "object_types": [
                 "area",
                 "node"
@@ -14079,7 +14154,7 @@
         {
             "key": "parking",
             "value": "street_side",
-            "description": "🄿 Street-side Parking, 🄵🅅 Type: Street-Side",
+            "description": "🄿 Street-side Parking, 🄵🅅 Type: `street_side`",
             "object_types": [
                 "area",
                 "node"
@@ -14099,7 +14174,7 @@
         {
             "key": "parking",
             "value": "multi-storey",
-            "description": "🄿 Multilevel Parking Garage, 🄵🅅 Type: Multilevel",
+            "description": "🄿 Multilevel Parking Garage, 🄵🅅 Type: `multi-storey`",
             "object_types": [
                 "node",
                 "area"
@@ -15115,6 +15190,11 @@
         },
         {
             "key": "vending",
+            "value": "e-cigarettes",
+            "description": "🄵🅅 Types of Goods: E-Cigarettes"
+        },
+        {
+            "key": "vending",
             "value": "milk",
             "description": "🄵🅅 Types of Goods: Milk"
         },
@@ -15778,6 +15858,10 @@
         {
             "key": "supervised",
             "description": "🄵 Supervised"
+        },
+        {
+            "key": "suitable_for_inline_skates",
+            "description": "🄵 Suitable for inline skates"
         },
         {
             "key": "substation",
@@ -16514,6 +16598,11 @@
         },
         {
             "key": "sac_scale",
+            "value": "strolling",
+            "description": "🄵🅅 Hiking Difficulty: Strolling"
+        },
+        {
+            "key": "sac_scale",
             "value": "hiking",
             "description": "🄵🅅 Hiking Difficulty: T1: Hiking"
         },
@@ -17216,52 +17305,52 @@
         {
             "key": "parking",
             "value": "surface",
-            "description": "🄵🅅 Type: Surface"
+            "description": "🄵🅅 Type: `surface`"
         },
         {
             "key": "parking",
             "value": "lane",
-            "description": "🄵🅅 Type: Roadside Lane"
-        },
-        {
-            "key": "parking",
-            "value": "carports",
-            "description": "🄵🅅 Type: Carports"
-        },
-        {
-            "key": "parking",
-            "value": "garage_boxes",
-            "description": "🄵🅅 Type: Garage Boxes"
+            "description": "🄵🅅 Type: `lane`"
         },
         {
             "key": "parking",
             "value": "rooftop",
-            "description": "🄵🅅 Type: Rooftop"
+            "description": "🄵🅅 Type: `rooftop`"
+        },
+        {
+            "key": "parking",
+            "value": "carports",
+            "description": "🄵🅅 Type: `carports`"
+        },
+        {
+            "key": "parking",
+            "value": "garage_boxes",
+            "description": "🄵🅅 Type: `garage_boxes`"
         },
         {
             "key": "parking",
             "value": "sheds",
-            "description": "🄵🅅 Type: Sheds"
+            "description": "🄵🅅 Type: `sheds`"
         },
         {
             "key": "parking",
             "value": "layby",
-            "description": "🄵🅅 Type: Turnout / Lay-By"
+            "description": "🄵🅅 Type: `layby`"
         },
         {
             "key": "parking",
             "value": "on_kerb",
-            "description": "🄵🅅 Type: On Kerb"
+            "description": "🄵🅅 Type: `on_kerb`"
         },
         {
             "key": "parking",
             "value": "half_on_kerb",
-            "description": "🄵🅅 Type: Half On Kerb"
+            "description": "🄵🅅 Type: `half_on_kerb`"
         },
         {
             "key": "parking",
             "value": "shoulder",
-            "description": "🄵🅅 Type: Shoulder"
+            "description": "🄵🅅 Type: `shoulder`"
         },
         {
             "key": "park_ride",
@@ -17871,6 +17960,26 @@
             "description": "🄵 Type"
         },
         {
+            "key": "map_type",
+            "value": "topo",
+            "description": "🄵🅅 Type: Topographical Map"
+        },
+        {
+            "key": "map_type",
+            "value": "street",
+            "description": "🄵🅅 Type: Road Map"
+        },
+        {
+            "key": "map_type",
+            "value": "scheme",
+            "description": "🄵🅅 Type: Schematic Map"
+        },
+        {
+            "key": "map_type",
+            "value": "toposcope",
+            "description": "🄵🅅 Type: Toposcope"
+        },
+        {
             "key": "map_size",
             "description": "🄵 Coverage"
         },
@@ -18093,6 +18202,30 @@
         {
             "key": "inscription",
             "description": "🄵 Inscription"
+        },
+        {
+            "key": "inline_skating_level",
+            "description": "🄵 Inline Skating Level"
+        },
+        {
+            "key": "inline_skating_level",
+            "value": "green",
+            "description": "🄵🅅 Inline Skating Level: green: no descents, smooth surface - perfect for getting started"
+        },
+        {
+            "key": "inline_skating_level",
+            "value": "blue",
+            "description": "🄵🅅 Inline Skating Level: blue: some easy descents, some obstacles"
+        },
+        {
+            "key": "inline_skating_level",
+            "value": "red",
+            "description": "🄵🅅 Inline Skating Level: red: slopes are a bit more complex, obstacles or bad surface"
+        },
+        {
+            "key": "inline_skating_level",
+            "value": "black",
+            "description": "🄵🅅 Inline Skating Level: black: complex downhill and slopes, or dangerous slopes"
         },
         {
             "key": "information",
@@ -19791,6 +19924,30 @@
             "description": "🄵 Capacity (Cubic Meters), 🄵 Total Spaces, 🄵 Capacity"
         },
         {
+            "key": "camp_site",
+            "description": "🄵 Type"
+        },
+        {
+            "key": "camp_site",
+            "value": "basic",
+            "description": "🄵🅅 Type: `basic`"
+        },
+        {
+            "key": "camp_site",
+            "value": "standard",
+            "description": "🄵🅅 Type: `standard`"
+        },
+        {
+            "key": "camp_site",
+            "value": "serviced",
+            "description": "🄵🅅 Type: `serviced`"
+        },
+        {
+            "key": "camp_site",
+            "value": "deluxe",
+            "description": "🄵🅅 Type: `deluxe`"
+        },
+        {
             "key": "cai_scale",
             "description": "🄵 Hiking Route Difficulty (Italian Alpine Club)"
         },
@@ -20563,11 +20720,6 @@
             "key": "bicycle",
             "value": "private",
             "description": "🄵🅅 Allowed Access: `private`"
-        },
-        {
-            "key": "bicycle",
-            "value": "designated",
-            "description": "🄵🅅 Allowed Access: `designated`"
         },
         {
             "key": "bicycle",
@@ -21979,22 +22131,22 @@
         },
         {
             "key": "internet_access:fee",
-            "description": "🄵 Internet Access"
+            "description": "🄵 Internet Access Fee"
         },
         {
             "key": "internet_access:fee",
             "value": "no",
-            "description": "🄵🅅 Internet Access: Free"
+            "description": "🄵🅅 Internet Access Fee: Free"
         },
         {
             "key": "internet_access:fee",
             "value": "yes",
-            "description": "🄵🅅 Internet Access: Paid"
+            "description": "🄵🅅 Internet Access Fee: Paid"
         },
         {
             "key": "internet_access:fee",
             "value": "customers",
-            "description": "🄵🅅 Internet Access: Customers Only"
+            "description": "🄵🅅 Internet Access Fee: Customers Only"
         },
         {
             "key": "holding_position:type",
